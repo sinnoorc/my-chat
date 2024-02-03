@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'app/routes/app_pages.dart';
+import 'app/theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +16,8 @@ class MyChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "My Chat",
-      initialRoute: AppPages.INITIAL,
+      initialRoute: AppPages.initial,
+      theme: AppTheme.themeData,
       getPages: AppPages.routes,
     );
   }
