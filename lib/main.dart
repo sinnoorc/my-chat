@@ -19,7 +19,8 @@ class MyChat extends StatelessWidget {
     return GetMaterialApp(
       title: "My Chat",
       initialRoute: AppPages.initial,
-      theme: AppTheme.themeData,
+      darkTheme: AppTheme.themeData,
+      themeMode: ThemeMode.dark,
       getPages: AppPages.routes,
     );
   }
