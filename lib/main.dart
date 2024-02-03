@@ -3,9 +3,11 @@ import 'package:get/get.dart';
 
 import 'app/routes/app_pages.dart';
 import 'app/theme/app_theme.dart';
+import 'initializer.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Initializer.init();
   runApp(const MyChat());
 }
 
