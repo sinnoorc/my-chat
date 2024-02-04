@@ -127,16 +127,16 @@ class LoginView extends GetView<LoginController> {
                     ],
                   ),
                   const SizedBox(height: 20),
-                  ElevatedButton.icon(
-                    style: ElevatedButton.styleFrom(
-                      minimumSize: const Size.fromHeight(55),
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.black,
-                    ),
-                    onPressed: () {},
-                    icon: Image.asset('assets/icons/google.png', height: 20),
-                    label: const Text('Continue with Google'),
-                  ),
+                  Obx(() => ElevatedButton.icon(
+                        style: ElevatedButton.styleFrom(
+                          minimumSize: const Size.fromHeight(55),
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                        ),
+                        onPressed: controller.isLoading ? null : controller.loginWithGoogle,
+                        icon: Image.asset('assets/icons/google.png', height: 20),
+                        label: const Text('Continue with Google'),
+                      )),
                 ],
               ),
             ),
