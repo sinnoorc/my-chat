@@ -16,12 +16,16 @@ class MyChat extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: "My Chat",
-      initialRoute: AppPages.initial,
-      darkTheme: AppTheme.themeData,
-      themeMode: ThemeMode.dark,
-      getPages: AppPages.routes,
+    return GestureDetector(
+      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
+      child: GetMaterialApp(
+        title: "My Chat",
+        initialRoute: AppPages.initial,
+        darkTheme: AppTheme.themeData,
+        themeMode: ThemeMode.dark,
+        getPages: AppPages.routes,
+        defaultTransition: Transition.rightToLeftWithFade,
+      ),
     );
   }
 }

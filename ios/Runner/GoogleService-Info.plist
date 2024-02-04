@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>API_KEY</key>
-	<string>AIzaSyC7MGgzQPmPKPb7DRS2JSQKGKmjsPUYUIM</string>
-	<key>GCM_SENDER_ID</key>
-	<string>516196794136</string>
-	<key>PLIST_VERSION</key>
-	<string>1</string>
-	<key>BUNDLE_ID</key>
-	<string>com.chat.myChat</string>
-	<key>PROJECT_ID</key>
-	<string>group-chat-6b921</string>
-	<key>STORAGE_BUCKET</key>
-	<string>group-chat-6b921.appspot.com</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:516196794136:ios:4fb0826a6b90e2c8c9e86d</string>
-</dict>
+	<dict>
+		<key>CLIENT_ID</key>
+		<string>516196794136-sm5u7gs3fgt6ai3otp007d151sh5om2f.apps.googleusercontent.com</string>
+		<key>REVERSED_CLIENT_ID</key>
+		<string>com.googleusercontent.apps.516196794136-sm5u7gs3fgt6ai3otp007d151sh5om2f</string>
+		<key>API_KEY</key>
+		<string>AIzaSyC7MGgzQPmPKPb7DRS2JSQKGKmjsPUYUIM</string>
+		<key>GCM_SENDER_ID</key>
+		<string>516196794136</string>
+		<key>PLIST_VERSION</key>
+		<string>1</string>
+		<key>BUNDLE_ID</key>
+		<string>com.chat.myChat</string>
+		<key>PROJECT_ID</key>
+		<string>group-chat-6b921</string>
+		<key>STORAGE_BUCKET</key>
+		<string>group-chat-6b921.appspot.com</string>
+		<key>IS_ADS_ENABLED</key>
+		<false></false>
+		<key>IS_ANALYTICS_ENABLED</key>
+		<false></false>
+		<key>IS_APPINVITE_ENABLED</key>
+		<true></true>
+		<key>IS_GCM_ENABLED</key>
+		<true></true>
+		<key>IS_SIGNIN_ENABLED</key>
+		<true></true>
+		<key>GOOGLE_APP_ID</key>
+		<string>1:516196794136:ios:4fb0826a6b90e2c8c9e86d</string>
+	</dict>
 </plist>
